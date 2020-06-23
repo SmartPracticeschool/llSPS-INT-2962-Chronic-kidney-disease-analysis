@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container { position: relative;width: 100%; max-width:100%;}
+.container img { width: 100%;height: auto;}
+.container .btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);
+ background-color: #f2f2f2;
+ color: red;
+ font-size: 16px;
+ padding: 16px 30px;
+ border: none;
+ cursor: pointer;
+ border-radius: 12px;
+ text-align: center;
+-webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;}
+.container .btn:hover { background-color: yellow;
+ color: red;}
+h1 {font-size:40px;color:purple }
+body {
+  background-image: url("img_tree.gif");
+  background-color: #cccccc;
+}
+.btn2:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+</style>
+
+</head>
+<body style="background-color:powderblue;">
+<div class="container">
+<marquee><h1><i>CHRONIC KIDNEY DISEASE ANALYSIS</i></h1></marquee>
+<p style="font-family:'Arial","font-size:30px","font-color:red"><bold>India has always been a land of plenty, plenty of wealth, culture, history, population and now diseases. Developed countries face a lot of diseases and spend a good part of their annual budget on providing health care to their citizens, it seems that developing countries are following the footsteps of their developed counterparts as far as diseases go. In the past 10 years, India has become the third country in the world with the most number of cancer patients. It is rather sad that today, most of us either know someone or know of someone who suffers from one or more chronic diseases like diabetes or hypertension or cancer or other health complications which includes kidney diseases too. This type of prediction may solve panic among the society regarding doubt about their diseases.</bold></p>
+<button class="btn" onclick="location.href='https://colab.research.google.com/drive/1MZK8udqb8Lqz1QzgjEGPM0ImocOKhNfU'"  type="button">click here</button>
+
+<img src="https://cdn-w.medlife.com/2018/03/chronic-diseases-742x430.png" alt="Lamp" width="32" height="32">
+   
+</div></body></html>
